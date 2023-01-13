@@ -1,5 +1,7 @@
 # Foodie Favorites
 
+// From https://github.com/vabraham/foodie_favorites
+
 Check out the live app: www.foodiefavorites.co <br />
 **_(If the above link doesn't work, I'm too cheap to still pay for hosting)_**
 

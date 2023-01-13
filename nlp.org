@@ -1,5 +1,12 @@
 #+title: NLP
 
-* Ссылки
+** Откуда брать датасеты
+
+https://eda.ru/recepty?page=720
+
+
+** Ссылки
 
 [[https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ][Полезная ссылка на оригинальные лекции по nlp]]
+
+https://www.digitalocean.com/community/tutorials/how-to-scrape-a-website-using-node-js-and-puppeteer
