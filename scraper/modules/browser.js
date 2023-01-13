@@ -2,14 +2,14 @@ import { launch, Browser } from 'puppeteer';
 
 /**
  * 
- * @returns {Browser}
+ * @returns {Promise<Browser>}
  */
 async function startBrowser() {
     // let browser;
     try {
         console.log("Opening the browser......");
         let browser = await launch({
-            headless: false,
+            headless: true,
             args: ["--disable-setuid-sandbox"],
             'ignoreHTTPSErrors': true
         });

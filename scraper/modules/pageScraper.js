@@ -1,4 +1,5 @@
 import { Browser } from 'puppeteer';
+import * as fs from 'node:fs/promises';
 
 
 const scraperObject = {
@@ -57,11 +58,15 @@ const scraperObject = {
 
 		let results = [];
 
-		for (let link of urls) {
+		for (let [i, link] of urls.entries()) {
 			let currentPageData = await pagePromise(link);
 			results.push(currentPageData);
+			// console.log("")
+			if (i === 2) { break; }
 		}
-		console.log(results);
+		// console.log(results);
+		await fs.writeFile('data.json', JSON.stringify(results, null, "  "));
+		
 	}
 }
 
