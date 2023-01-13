@@ -4,7 +4,8 @@
   "description": "scraping web to create dataset of food recipes (in russian)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
     "dataset"
   ],
   "author": "heinwol",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.5.2"
+  },
+  "type": "module"
 }

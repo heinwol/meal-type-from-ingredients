@@ -3,3 +3,17 @@ foodie_favorites_dataset
 foodbase
 **/.ipynb_checkpoints
 **/*.code-workspace
+
+###
+
+# node-based stuff:
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+scraper/build/Release
+
+# Dependency directories
+scraper/node_modules/
+scraper/jspm_packages/
+
+# Optional npm cache directory
+scraper/.npm
