@@ -3,7 +3,7 @@ async function scrapeAll(browserInstance){
 	let browser;
 	try{
 		browser = await browserInstance;
-		await scraperObject(browser);	
+		await scraperObject.scraper(browser);	
 		
 	}
 	catch(err){
