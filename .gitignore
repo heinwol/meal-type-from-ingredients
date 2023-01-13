@@ -1,5 +1,5 @@
 recipe1m
 foodie_favorites_dataset
 foodbase
-*.ipynb_checkpoints
-*.code-workspace
+**/.ipynb_checkpoints
+**/.code-workspace
