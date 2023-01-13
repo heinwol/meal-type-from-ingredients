@@ -1,18 +1,22 @@
-import { launch } from 'puppeteer';
+import { launch, Browser } from 'puppeteer';
 
+/**
+ * 
+ * @returns {Browser}
+ */
 async function startBrowser() {
-    let browser;
+    // let browser;
     try {
         console.log("Opening the browser......");
-        browser = await launch({
+        let browser = await launch({
             headless: false,
             args: ["--disable-setuid-sandbox"],
             'ignoreHTTPSErrors': true
         });
+        return browser;
     } catch (err) {
         console.log("Could not create a browser instance => : ", err);
     }
-    return browser;
 }
 
 export { startBrowser };

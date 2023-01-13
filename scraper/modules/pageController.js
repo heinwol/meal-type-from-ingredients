@@ -1,8 +1,13 @@
+import { Browser } from 'puppeteer';
 import { scraperObject } from './pageScraper.js';
+
+/**
+ * @param {Promise<Browser>} browserInstance 
+ */
 async function scrapeAll(browserInstance){
-	let browser;
+	// let browser;
 	try{
-		browser = await browserInstance;
+		let browser = await browserInstance;
 		await scraperObject.scraper(browser);	
 		
 	}
@@ -11,4 +16,4 @@ async function scrapeAll(browserInstance){
 	}
 }
 
-export default { scrapeAll };
+export { scrapeAll };
