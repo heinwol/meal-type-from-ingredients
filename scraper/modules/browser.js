@@ -9,7 +9,7 @@ async function startBrowser() {
     try {
         console.log("Opening the browser......");
         let browser = await launch({
-            headless: true,
+            headless: false,
             args: ["--disable-setuid-sandbox"],
             'ignoreHTTPSErrors': true
         });

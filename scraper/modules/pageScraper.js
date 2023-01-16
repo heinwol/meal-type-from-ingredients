@@ -61,11 +61,11 @@ const scraperObject = {
 		for (let [i, link] of urls.entries()) {
 			let currentPageData = await pagePromise(link);
 			results.push(currentPageData);
-			// console.log("")
+			console.log(`${i+1}/3;  url: ${link}`);
 			if (i === 2) { break; }
 		}
 		// console.log(results);
-		await fs.writeFile('data.json', JSON.stringify(results, null, "  "));
+		await fs.writeFile('../data/results.json', JSON.stringify(results, null, "  "));
 		
 	}
 }
