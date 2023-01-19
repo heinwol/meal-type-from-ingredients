@@ -1,5 +1,11 @@
 #+title: NLP
 
+** Что делать:
+
+- заменить category на course
+
+Вообще, на paperswithcode нет ничего про угадывание категории блюда по ингрилиентам. Зато есть [[https://www.kaggle.com/competitions/whats-cooking/overview/description][соревнование на caggle]]
+
 ** Откуда брать датасеты
 
 https://eda.ru/recepty?page=720
@@ -10,3 +16,12 @@ https://eda.ru/recepty?page=720
 [[https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ][Полезная ссылка на оригинальные лекции по nlp]]
 
 https://www.digitalocean.com/community/tutorials/how-to-scrape-a-website-using-node-js-and-puppeteer
+
+Идея определения чего-то по ингридиентам:
+
+https://cseweb.ucsd.edu/classes/wi15/cse255-a/reports/fa15/039.pdf
+
+https://www.researchgate.net/publication/366740823_HAN_TO_PREDICT_CUISINE_FROM_RECIPES_INGREDIENTS
+
+Прикольно про иерархию кухонь
+https://cs.paperswithcode.com/paper/hierarchical-clustering-of-world-cuisines
