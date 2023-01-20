@@ -6,7 +6,6 @@ foodbase
 # data
 dataset_collector/error_url.txt
 dataset_collector/find_markers
-data/ready_dataframe.json
 
 ###
 
