@@ -4,7 +4,6 @@
 
 - заменить category на course
 
-Вообще, на paperswithcode нет ничего про угадывание категории блюда по ингрилиентам. Зато есть [[https://www.kaggle.com/competitions/whats-cooking/overview/description][соревнование на caggle]]
 
 ** Откуда брать датасеты
 
@@ -15,13 +14,30 @@ https://eda.ru/recepty?page=720
 
 [[https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ][Полезная ссылка на оригинальные лекции по nlp]]
 
-https://www.digitalocean.com/community/tutorials/how-to-scrape-a-website-using-node-js-and-puppeteer
+Вообще, на paperswithcode нет ничего про угадывание категории блюда по ингридиентам. Зато есть [[https://www.kaggle.com/competitions/whats-cooking/overview/description][соревнование на caggle]]
+- к этому же есть еще ноутбук: https://www.kaggle.com/code/paultimothymooney/predict-cuisine-type-from-recipe-ingredients/notebook
 
-Идея определения чего-то по ингридиентам:
+Тоже угадывание кухни по ингридиентам, но без кода, зато понятное короткое описание:
+https://medium.com/@jaimejcheng/predicting-cuisine-regionality-based-on-recipe-ingredients-using-nlp-5262e83884eb
 
-https://cseweb.ucsd.edu/classes/wi15/cse255-a/reports/fa15/039.pdf
+Идея определения чего-то по ингридиентам (статьи):
+- https://cseweb.ucsd.edu/classes/wi15/cse255-a/reports/fa15/039.pdf
+- https://www.researchgate.net/publication/366740823_HAN_TO_PREDICT_CUISINE_FROM_RECIPES_INGREDIENTS
 
-https://www.researchgate.net/publication/366740823_HAN_TO_PREDICT_CUISINE_FROM_RECIPES_INGREDIENTS
+Как справиться с class imbalance:
+- https://www.analyticsvidhya.com/blog/2020/07/10-techniques-to-deal-with-class-imbalance-in-machine-learning/
+- (менее полезное) https://www.kaggle.com/code/kshitijyad/eda-and-class-imbalance-explained-novice-level
 
 Прикольно про иерархию кухонь
 https://cs.paperswithcode.com/paper/hierarchical-clustering-of-world-cuisines
+
+*** Не такие полезные ссылки
+
+Скрепинг на js:
+https://www.digitalocean.com/community/tutorials/how-to-scrape-a-website-using-node-js-and-puppeteer
+
+FoodBase dataset:
+https://academic.oup.com/database/article/doi/10.1093/database/baz121/5611291
+
+Статья про food recomendation system:
+https://towardsdatascience.com/building-a-food-recommendation-system-90788f78691a
