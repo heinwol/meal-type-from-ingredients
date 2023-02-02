@@ -28,6 +28,9 @@ https://medium.com/@jaimejcheng/predicting-cuisine-regionality-based-on-recipe-i
 - https://www.analyticsvidhya.com/blog/2020/07/10-techniques-to-deal-with-class-imbalance-in-machine-learning/
 - (менее полезное) https://www.kaggle.com/code/kshitijyad/eda-and-class-imbalance-explained-novice-level
 
+Разные библиотеки для всякого nlp на русском языке
+https://nlpub.ru/%D0%9E%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0_%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%B0
+
 Прикольно про иерархию кухонь
 https://cs.paperswithcode.com/paper/hierarchical-clustering-of-world-cuisines
 

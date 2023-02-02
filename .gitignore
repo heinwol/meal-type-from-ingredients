@@ -8,6 +8,10 @@ dataset_collector/error_url.txt
 dataset_collector/find_markers
 
 ###
+# Private stuff
+private.org
+
+###
 
 # node-based stuff:
 
