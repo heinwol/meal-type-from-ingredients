@@ -6,6 +6,8 @@ foodbase
 # data
 dataset_collector/error_url.txt
 dataset_collector/find_markers
+cc.ru.300.bin
+cc.ru.300.bin.gz
 
 ###
 # Private stuff
