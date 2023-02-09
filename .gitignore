@@ -3,11 +3,14 @@ foodie_favorites_dataset
 foodbase
 **/.ipynb_checkpoints
 **/*.code-workspace
+
 # data
 dataset_collector/error_url.txt
 dataset_collector/find_markers
 cc.ru.300.bin
 cc.ru.300.bin.gz
+playing_with_algorithms/glove.6B.50d.txt
+playing_with_algorithms/news20.tar.gz
 
 ###
 # Private stuff
