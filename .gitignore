@@ -4,6 +4,7 @@ Untitled.ipynb
 foodbase
 **/.ipynb_checkpoints
 **/*.code-workspace
+**/*.pkl
 
 # data
 dataset_collector/error_url.txt
